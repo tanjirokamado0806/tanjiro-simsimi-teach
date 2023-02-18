@@ -6,9 +6,7 @@ This is a package that contains sim-teach commands directly from my API
 ## Installation
 
 ```bash
-$ npm install tanjiro-sim-teach
-
-const knights = require("tanjiro-sim-teach");
+npm install tanjiro-sim-teach
 ```
 
 ## SIM
