@@ -1,6 +1,8 @@
 # TANJIRO'S SIM-TEACH
 This is a package that contains sim-teach commands directly from my API
+
 [Tanjiro API](https://tanjiro-api.onrendeer.com)
+
 [Tanjiro Sim-Teach API](https://simsimi-api.tanjirokamado0806.repl.co/)
 
 ## Installation
