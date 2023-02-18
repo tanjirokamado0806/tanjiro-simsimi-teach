@@ -1,6 +1,6 @@
 {
   "name": "tanjiro-sim-teach",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Tanjiro's Sim-Teach Package",
   "main": "index.js",
   "scripts": {

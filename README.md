@@ -14,7 +14,7 @@ npm install tanjiro-sim-teach
 ## SIM
 ```js
 const sim = require("tanjiro-sim-teach").sim,
-  res = sim("hi");
+  res = await sim("hi");
 
 console.log(res.ans) //OUTPUTS HELLO
 ```
@@ -22,9 +22,9 @@ console.log(res.ans) //OUTPUTS HELLO
 ## TEACH
 ```js
 const teach = require("tanjiro-sim-teach").teach,
-  res = teach("hi", "hello");
+  res = await teach("hi", "hello");
   // "hi" stands for your ask/question
   // "hello" stands for simsimi answer 
 
-console.log(res.teach)
+console.log(res.success)
 ```
