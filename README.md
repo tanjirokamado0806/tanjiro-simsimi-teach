@@ -8,12 +8,12 @@ This is a package that contains sim-teach commands directly from my API
 ## Installation
 
 ```bash
-npm install tanjiro-sim-teach
+npm install tanjiro-simsimi-teach
 ```
 
 ## SIM
 ```js
-const sim = require("tanjiro-sim-teach").sim,
+const sim = require("tanjiro-simsimi-teach").sim,
   res = await sim("hi");
 
 console.log(res.ans) //OUTPUTS HELLO
@@ -21,7 +21,7 @@ console.log(res.ans) //OUTPUTS HELLO
 
 ## TEACH
 ```js
-const teach = require("tanjiro-sim-teach").teach,
+const teach = require("tanjiro-simsimi-teach").teach,
   res = await teach("hi", "hello");
   // "hi" stands for your ask/question
   // "hello" stands for simsimi answer 
